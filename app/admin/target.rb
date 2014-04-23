@@ -1,4 +1,5 @@
 ActiveAdmin.register Target do
+  permit_params :title, :image_file_name, :image_file_size, :image_content_type
 
   
   # See permitted parameters documentation:
