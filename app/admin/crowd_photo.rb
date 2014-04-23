@@ -1,4 +1,5 @@
 ActiveAdmin.register CrowdPhoto do
+  permit_params :image_file_name, :image_file_size, :image_content_type, :title, :coordinates, :dimensions, :target_file_name, :target_file_size, :target_content_type
 
   
   # See permitted parameters documentation:
